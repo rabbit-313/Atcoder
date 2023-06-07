@@ -23,18 +23,12 @@ int main(){
     sort(B.begin(), B.end());
     sort(C.begin(), C.end());
 
+
     int sum = 0;
     for(int i=0; i<N; i++){
-        auto iter_b = lower_bound(B.begin(), B.end(), A.at(i));
-        int val_b = *iter_b;
-
-        auto iter_c = lower_bound(C.begin(), C.end(), val_b);
-
-        int val_c = *iter_c;
-
-        if(val_c != 0){
-            sum++;
-        }
+        long long Aj = lower_bound(A.begin(), A.end(), B[i]) - A.begin();
+        long long Cj = N - (upper_bound(C.begin(), C.end(), B[i]) - C.begin());
+        sum += Aj * Cj;
     }
     cout << sum << endl;
 
