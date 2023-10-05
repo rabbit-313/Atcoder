@@ -4,10 +4,8 @@ using namespace std;
 
 int main(){
 
-    while(life != 0){
-        life--;
-        happy++;
-    }
-    cout << "happy end!" << endl;
+    int a=1;
+    int b=2;
 
+    cout << a/b <<endl;
 }
