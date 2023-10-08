@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0",
+  "configurations": [
+    {
+      "name": "Debug C++",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/Training/beginner/BeginnersSelection/otoshidama",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "c_build"
+    }
+  ]
+}
