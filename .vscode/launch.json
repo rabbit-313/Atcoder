@@ -5,7 +5,7 @@
       "name": "Debug C++",
       "type": "lldb",
       "request": "launch",
-      "program": "${workspaceFolder}/Training/beginner/BeginnersSelection/otoshidama",
+      "program": "${workspaceFolder}/Training/BeginnersSelection/hakuchumu",
       "args": [],
       "cwd": "${workspaceFolder}",
       "preLaunchTask": "c_build"
