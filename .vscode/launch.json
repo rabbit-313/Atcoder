@@ -5,7 +5,7 @@
       "name": "Debug C++",
       "type": "lldb",
       "request": "launch",
-      "program": "${workspaceFolder}/Training/BeginnersSelection/hakuchumu",
+      "program": "${workspaceFolder}/Training/Graph/adjacent_vertices",
       "args": [],
       "cwd": "${workspaceFolder}",
       "preLaunchTask": "c_build"
