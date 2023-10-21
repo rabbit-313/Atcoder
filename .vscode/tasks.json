@@ -7,9 +7,9 @@
       "command": "/usr/local/bin/g++",
       "args": [
         "-g",
-        "${file}",
+        "/Users/raivc/Atcoder/Test/Rakuten/ex.cpp",
         "-o",
-        "${fileDirname}/${fileBasenameNoExtension}"
+        "/Users/raivc/Atcoder/Test/Rakuten/ex"
       ],
       "group": "build"
     },
